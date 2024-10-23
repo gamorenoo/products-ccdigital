@@ -1,0 +1,2 @@
+INSERT INTO Product(Id, Code, Name, Description, Price, Stock, Created, RowVersion)
+VALUES ('553e2e51-cf4d-4923-b2e9-e97575cf7a68', 'PROD001', 'Producto 1', 'Descripción producto 1', 1500, 10, GETDATE(), 'a8871de5-976b-48bc-b5dc-6c8f288bfd48');

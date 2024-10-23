@@ -1,5 +1,4 @@
 using FluentValidation.AspNetCore;
-using MediatR;
 using products_ccdigital.Api.Filters;
 using products_ccdigital.Application;
 using products_ccdigital.Infrastructure;

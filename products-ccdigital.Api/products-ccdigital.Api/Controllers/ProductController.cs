@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using products_ccdigital.Application.Products;
 using products_ccdigital.Application.Products.Commands;
 using products_ccdigital.Application.Products.Queries;
