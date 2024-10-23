@@ -65,7 +65,7 @@ Este proyecto hace uso del Api para realizar las operaciones CRUD mencionadas an
 
 
 ## Notas
-- **La parte que tomó mas tiempo:** de desarrollo, fue la estructuración y desarrollo del Api, esto debido a todos los compientes que se querian implementar, la arquitectura elegida fue la Hexagonal
+- **La parte que tomó mas tiempo:** de desarrollo, fue la estructuración y desarrollo del Api, esto debido a todos los componentes que se querian implementar, la arquitectura elegida fue la Hexagonal.
 
 
 
