@@ -1,0 +1,6 @@
+@products_ccdigital.Api_HostAddress = http://localhost:5062
+
+GET {{products_ccdigital.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
