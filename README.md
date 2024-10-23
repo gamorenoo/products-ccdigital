@@ -27,7 +27,7 @@ El principal objetivo de esta arquitectura es la capacidad de separar el código
 Asegúrate de sql server instalado para el Back
 Node y Angular cli para el Front
 
-## Instrucciones para Ejecutar APi (Carpeta BackEnd)
+## Instrucciones para Ejecutar APi (Carpeta products-ccdigital.Api)
 
 ### Paso 1: Configurar la Base de Datos
 1. Eejutar el script contenido en el archivo llamdo ###products-ccdigital-db.sql para crear la base de datos del proyecto y la tabla de productos.
@@ -37,7 +37,7 @@ Node y Angular cli para el Front
 2. Una vez se tenga la apicación en visual studio y haya sido ejecutada, si todo va bien mostrará el swagger en el navegador
 
 
-## Instrucciones para Ejecutar FRONT (Carpeta FrontEnd)
+## Instrucciones para Ejecutar FRONT (Carpeta products-ccdigital-web)
 
 Este proyecto hace uso del Api para realizar las operaciones CRUD mencionadas anterioemente
 
@@ -45,7 +45,7 @@ Este proyecto hace uso del Api para realizar las operaciones CRUD mencionadas an
 
 1. Asegúrate de tener Node.js y npm instalados en tu máquina.
 
-### Configuración y Ejecución del Frontend (React)
+### Configuración y Ejecución del Frontend (Angular)
 
 1. Navega a la raíz del proyecto.
 
@@ -55,10 +55,10 @@ Este proyecto hace uso del Api para realizar las operaciones CRUD mencionadas an
     npm install
     ```
 
-3. Luego, ejecuta el siguiente comando para iniciar la aplicación React:
+3. Luego, ejecuta el siguiente comando para iniciar la aplicación Angular:
 
     ```bash
-    npm start
+    ng serve
     ```
 
 4. Abre tu navegador y accede a `http://localhost:4200` para ver la aplicación en acción.
