@@ -64,7 +64,8 @@ Este proyecto hace uso del Api para realizar las operaciones CRUD mencionadas an
 4. Abre tu navegador y accede a `http://localhost:4200` para ver la aplicación en acción.
 
 
-## Características del Proyecto
-- **Operaciones CRUD de Productos:** La aplicación permite crear, leer productos a través de la API.
+## Notas
+- **La parte que tomó mas tiempo:** de desarrollo, fue la estructuración y desarrollo del Api, esto debido a todos los compientes que se querian implementar, la arquitectura elegida fue la Hexagonal
+
 
 
