@@ -1,0 +1,41 @@
+<div class="container mt-4">
+    <h2>Lista de Productos</h2>
+    
+    <!-- Botón para agregar un nuevo producto -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#productModal" (click)="createProduct()">
+        Crear Nuevo Producto
+    </button>
+    
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Código</th>
+          <th>Nombre</th>
+          <th>Descripción</th>
+          <th>Precio</th>
+          <th>Cantidad</th>
+          <th>Acciones</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let product of pagedProducts">
+          <!-- <td>{{ product.id }}</td> -->
+          <td>{{ product.code }}</td>
+          <td>{{ product.name }}</td>
+          <td>{{ product.description }}</td>
+          <td>{{ product.price }}</td>
+          <td>{{ product.stock }}</td>
+          <td>
+            <button class="btn btn-warning btn-sm" (click)="editProduct(product)" data-bs-toggle="modal" data-bs-target="#productModal">Actualizar</button>
+            <button class="btn btn-danger btn-sm" (click)="deleteProduct(product.id)" style="margin-left: 5px;">Eliminar</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <!-- Paginación -->
+    <pagination-controls (pageChange)="onPageChange($event)"></pagination-controls>
+  </div>
+
+    
+<app-product-modal [product] = "productUpdate" (createProductEvent)="createProductEvent($event)"></app-product-modal>
