@@ -21,6 +21,7 @@ El principal objetivo de esta arquitectura es la capacidad de separar el código
 * CQRS
 * AutoMapper
 * Visual studio Comunity 2022
+* Angular 18 para el Front
 
 ## Requisitos Previos
 Asegúrate de sql server instalado para el Back
